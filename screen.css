@@ -3,10 +3,10 @@ img#computer {
     height: 250px;
     border-radius: 20px;
     display: block;
-    margin-left: auto;
+    margin-left: 200px;
     margin-right: auto;
-    
-    
+    margin-bottom: 30px;
+
 }
 
 
@@ -27,31 +27,76 @@ h1#hello {
     background-color: white;
 }
 
-html{
+html {
     background-color: white;
 }
 
 
 .container#History {
     width: 373px;
-    height:384px;
-    display: block;
-    padding-right: 10px;
-    margin-top: 30px;
-    margin-left:197px;
+    height: 384px;
+    margin-right: 10px;
+
+
+    margin-left: 197px;
     padding-left: 30px;
     align-items: center;
     background-color: #e9eaec;
     border-radius: 20px;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
-    
-    
+    display: inline-block;
+
+
+}
+
+p#hisbod {
+    line-height: 25px;
+
 }
 
 h1#hishead {
-    
+
     font-family: Arial, Helvetica, sans-serif;
-    
-    padding-top: 20px;
+
+    padding-top: 10px;
+}
+
+.container#Example {
+    width: 345px;
+    height: 384px;
+
+
+    margin-left: 15px;
+    padding-left: 30px;
+
+    background-color: #e9eaec;
+    border-radius: 20px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+}
+
+
+
+div#grey {
+    background-color: #424242;
+    color: #FFFFFF;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+h1#exhead {
+    font-family: Arial, Helvetica, sans-serif;
+
+    padding-top: 10px;
+}
+
+p {
+    margin: 5px;
+}
+
+p#aside {
+    padding-bottom: 20px;
+    margin-bottom: 10px;
 }
